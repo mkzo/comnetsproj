@@ -1,0 +1,75 @@
+
+
+Sequence #: 1
+bound r1 S socketSource: Sending Data Multicast packet to destination: 192.168.1.2:8889
+Router 1 SSocket: Received Data Multicast packet from source 192.168.1.2
+Router 1 SSocket: Sending Centroid Request packet to destination: 192.168.1.4:8891
+Router 2 R1Socket: Received Centroid Request packet from source 192.168.1.4
+Router 2 R1Socket: Sending Centroid Reply packet to destination: 192.168.1.3:8890
+Router 1 R2Socket: Received Centroid Reply packet from source 192.168.1.3
+Router 1 SSocket: Sending Centroid Request packet to destination: 192.168.1.6:8893
+Router 3 R1Socket: Received Centroid Request packet from source 192.168.1.6
+Router 3 R1Socket: Sending Centroid Reply packet to destination: 192.168.1.5:8892
+Router 1 R3Socket: Received Centroid Reply packet from source 192.168.1.5
+Router 1 SSocket: Sending Data Multicast packet to destination: 192.168.1.6:8893
+Router 3 R1Socket: Received Data Multicast packet from source 192.168.1.6
+Router 3 R1Socket: Sending Data Unicast packet to destination: 192.168.1.10:8897
+Router 3 R1Socket: Sending Data Unicast packet to destination: 192.168.1.12:8899
+Router 4 R3Socket: Received Data Unicast packet from source 192.168.1.10
+Router 4 R3Socket: Sending Data Unicast packet to destination: 192.168.1.16:8903
+Router 7 R4Socket: Received Data Unicast packet from source 192.168.1.16
+Router 7 R4Socket: Sending Data Unicast packet to destination: 192.168.1.22:8909
+Dest 2: Received Data Unicast packet from source 192.168.1.22
+Router 5 R3Socket: Received Data Unicast packet from source 192.168.1.12
+Router 5 R3Socket: Sending Data Unicast packet to destination: 192.168.1.18:8905
+Dest 3: Received Data Unicast packet from source 192.168.1.18
+
+
+Sequence #: 2
+Source: Sending Data Multicast packet to destination: 192.168.1.2:8889
+Router 1 SSocket: Received Data Multicast packet from source 192.168.1.2
+Router 1 SSocket: Sending Centroid Request packet to destination: 192.168.1.4:8891
+Router 2 R1Socket: Received Centroid Request packet from source 192.168.1.4
+Router 2 R1Socket: Sending Centroid Reply packet to destination: 192.168.1.3:8890
+Router 1 R2Socket: Received Centroid Reply packet from source 192.168.1.3
+Router 1 SSocket: Sending Centroid Request packet to destination: 192.168.1.6:8893
+Router 3 R1Socket: Received Centroid Request packet from source 192.168.1.6
+Router 3 R1Socket: Sending Centroid Reply packet to destination: 192.168.1.5:8892
+Router 1 R3Socket: Received Centroid Reply packet from source 192.168.1.5
+Router 1 SSocket: Sending Data Multicast packet to destination: 192.168.1.6:8893
+Router 3 R1Socket: Received Data Multicast packet from source 192.168.1.6
+Router 3 R1Socket: Sending Data Unicast packet to destination: 192.168.1.10:8897
+Router 3 R1Socket: Sending Data Unicast packet to destination: 192.168.1.12:8899
+Router 4 R3Socket: Received Data Unicast packet from source 192.168.1.10
+Router 4 R3Socket: Sending Data Unicast packet to destination: 192.168.1.16:8903
+Router 5 R3Socket: Received Data Unicast packet from source 192.168.1.12
+Router 5 R3Socket: Sending Data Unicast packet to destination: 192.168.1.18:8905
+Router 7 R4Socket: Received Data Unicast packet from source 192.168.1.16
+Router 7 R4Socket: Sending Data Unicast packet to destination: 192.168.1.22:8909
+Dest 3: Received Data Unicast packet from source 192.168.1.18
+Dest 2: Received Data Unicast packet from source 192.168.1.22
+
+
+Sequence #: 3
+Source: Sending Data Multicast packet to destination: 192.168.1.2:8889
+Router 1 SSocket: Received Data Multicast packet from source 192.168.1.2
+Router 1 SSocket: Sending Centroid Request packet to destination: 192.168.1.4:8891
+Router 2 R1Socket: Received Centroid Request packet from source 192.168.1.4
+Router 2 R1Socket: Sending Centroid Reply packet to destination: 192.168.1.3:8890
+Router 1 R2Socket: Received Centroid Reply packet from source 192.168.1.3
+Router 1 SSocket: Sending Centroid Request packet to destination: 192.168.1.6:8893
+Router 3 R1Socket: Received Centroid Request packet from source 192.168.1.6
+Router 3 R1Socket: Sending Centroid Reply packet to destination: 192.168.1.5:8892
+Router 1 R3Socket: Received Centroid Reply packet from source 192.168.1.5
+Router 1 SSocket: Sending Data Multicast packet to destination: 192.168.1.6:8893
+Router 3 R1Socket: Received Data Multicast packet from source 192.168.1.6
+Router 3 R1Socket: Sending Data Unicast packet to destination: 192.168.1.10:8897
+Router 3 R1Socket: Sending Data Unicast packet to destination: 192.168.1.12:8899
+Router 4 R3Socket: Received Data Unicast packet from source 192.168.1.10
+Router 4 R3Socket: Sending Data Unicast packet to destination: 192.168.1.16:8903
+Router 5 R3Socket: Received Data Unicast packet from source 192.168.1.12
+Router 5 R3Socket: Sending Data Unicast packet to destination: 192.168.1.18:8905
+Router 7 R4Socket: Received Data Unicast packet from source 192.168.1.16
+Router 7 R4Socket: Sending Data Unicast packet to destination: 192.168.1.22:8909
+Dest 3: Received Data Unicast packet from source 192.168.1.18
+Dest 2: Received Data Unicast packet from source 192.168.1.22
